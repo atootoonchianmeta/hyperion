@@ -7,7 +7,7 @@ import { ALNetworkRequestEvent, ALNetworkResponseEvent } from "hyperion-autologg
 import { ALSurfaceMutationEventData } from "hyperion-autologging/src/ALSurfaceMutationPublisher";
 import { ALSurfaceVisibilityEventData } from "hyperion-autologging/src/ALSurfaceVisibilityPublisher";
 import { ALMetadataEvent, Metadata } from "hyperion-autologging/src/ALType";
-import { ALUIEventData } from "hyperion-autologging/src/ALUIEventPublisher";
+import { ALUIEventData } from "hyperion-autologging/src/ALUIEvent";
 import type { ALChannelEvent } from "hyperion-autologging/src/AutoLogging";
 import { Channel } from "hyperion-channel";
 import * as XXH from "xxhashjs"

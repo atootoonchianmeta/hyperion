@@ -20,6 +20,7 @@ import * as ALSurfaceMutationPublisher from "./ALSurfaceMutationPublisher";
 import { getAncestralSurfaceNode, getSurfacePath } from "./ALSurfaceUtils";
 import { ALElementEvent, ALSharedInitOptions } from "./ALType";
 import * as ALUIEventPublisher from "./ALUIEventPublisher";
+import * as ALUIEvent from "./ALUIEvent";
 import { getCurrMainPageUrl } from "./MainPageUrl";
 import { ALSurfaceData } from "./ALSurfaceData";
 
@@ -54,7 +55,7 @@ export function publish(options: InitOptions): void {
   const tryInteractiveParentTextEventName = !changeEvent.interactableElementsOnly ? 'click' /* changeEvent?.eventName */ : null
 
   type PartialALEventValueEventData =
-    Pick<ALUIEventPublisher.ALUIEventData, "surface" | "surfaceData" | "value" | "metadata" | "relatedEventIndex"> &
+    Pick<ALUIEvent.ALUIEventData, "surface" | "surfaceData" | "value" | "metadata" | "relatedEventIndex"> &
     Pick<ALElementEvent, "element">;
 
   function emitEvent(elementValueEventData: PartialALEventValueEventData) {

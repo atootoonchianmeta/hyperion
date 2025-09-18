@@ -8,7 +8,7 @@ import type { Channel } from "hyperion-channel/src/Channel";
 import { TimedTrigger } from 'hyperion-timed-trigger/src/TimedTrigger';
 import performanceAbsoluteNow from 'hyperion-util/src/performanceAbsoluteNow';
 import * as Types from "hyperion-util/src/Types";
-import { ALChannelUIEvent } from "./ALUIEventPublisher";
+import { ALChannelUIEvent } from "./ALUIEvent";
 import * as ALEventIndex from "./ALEventIndex";
 import { ALLoggableEvent } from "./ALType";
 import * as ALInteractableDOMElement from "./ALInteractableDOMElement";

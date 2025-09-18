@@ -7,7 +7,7 @@ import { ALFlowletEventData } from "hyperion-autologging/src/ALFlowletPublisher"
 import { AdsALHeartbeatEventData } from "hyperion-autologging/src/ALHeartbeat";
 import { ALNetworkRequestEvent, ALNetworkResponseEvent } from "hyperion-autologging/src/ALNetworkPublisher";
 import { ALSurfaceMutationEventData } from "hyperion-autologging/src/ALSurfaceMutationPublisher";
-import { ALUIEventBubbleData, ALUIEventCaptureData, ALUIEventData } from "hyperion-autologging/src/ALUIEventPublisher";
+import { ALUIEventBubbleData, ALUIEventCaptureData, ALUIEventData } from "hyperion-autologging/src/ALUIEvent";
 import * as AutoLogging from "hyperion-autologging/src/AutoLogging";
 import type cytoscape from 'cytoscape';
 import React from "react";

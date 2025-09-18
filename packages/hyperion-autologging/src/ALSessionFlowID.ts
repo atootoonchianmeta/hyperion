@@ -8,10 +8,10 @@ import { assert } from "hyperion-globals";
 import { guid } from "hyperion-util/src/guid";
 import performanceAbsoluteNow from "hyperion-util/src/performanceAbsoluteNow";
 import { CookiePersistentData } from "hyperion-util/src/PersistentData";
-import { ALChannelUIEvent } from "./ALUIEventPublisher";
 import { Channel } from "hyperion-channel";
 import { ALChannelHeartbeatEvent, ALHeartbeatType } from "./ALHeartbeat";
 import { ALTimedEvent } from "./ALType";
+import { ALChannelUIEvent } from "./ALUIEvent";
 
 export interface SessionFlowID {
   id: string;

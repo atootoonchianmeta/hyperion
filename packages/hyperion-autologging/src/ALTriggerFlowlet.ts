@@ -21,7 +21,7 @@ import { isTrackedEvent } from "./ALInteractableDOMElement";
 import { ALChannelSurfaceEvent } from "./ALSurface";
 import { ALSurfaceContext, ALSurfaceContextFilledValue, useALSurfaceContext } from "./ALSurfaceContext";
 import * as ALUIEventGroupPublisher from "./ALUIEventGroupPublisher";
-import { ALChannelUIEvent } from "./ALUIEventPublisher";
+import { ALChannelUIEvent } from "./ALUIEvent";
 import * as  Flowlet from "hyperion-flowlet/src/Flowlet";
 
 export type InitOptions<> = Types.Options<

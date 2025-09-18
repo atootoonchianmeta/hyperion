@@ -9,7 +9,7 @@ import * as Types from "hyperion-util/src/Types";
 import * as ALEventIndex from "./ALEventIndex";
 import { ALSharedInitOptions } from "./ALType";
 import * as ALUIEventPublisher from "./ALUIEventPublisher";
-import { ALUIEventCaptureData } from "./ALUIEventPublisher";
+import { ALUIEventCaptureData } from "./ALUIEvent";
 
 
 export type InitOptions = Types.Options<
